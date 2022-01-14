@@ -2,7 +2,8 @@
 function App() {
   return (
     <div className="app">
-      hello
+      topbar 
+      sec  -intro -portfolio -work -testimonials 
       
     </div>
   );
