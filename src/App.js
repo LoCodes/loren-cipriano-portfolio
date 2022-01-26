@@ -1,12 +1,13 @@
+import Topbar from "./components/topbar/Topbar";
 
 function App() {
   return (
     <div className="app">
-      topbar 
+      <Topbar />
       sec  -intro -portfolio -work -testimonials 
       
     </div>
-  );
+  ) ;
 }
 
 export default App;
