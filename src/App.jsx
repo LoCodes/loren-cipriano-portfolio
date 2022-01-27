@@ -4,6 +4,7 @@ import Portfolio from "./components/portfolio/Portfolio"
 import Works from "./components/works/Works"
 import Testimonials from "./components/testimonials/Testimonials"
 import Contact from "./components/contact/Contact"
+import "./app.scss"
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       {/* sec  -intro -portfolio -work -testimonials  */}
 
       <div className="sections">
+        blah blah 
         <Intro />
         <Portfolio />
         <Works /> 
