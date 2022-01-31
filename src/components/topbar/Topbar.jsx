@@ -17,14 +17,15 @@ export default function Topbar() {
                     </div>
 
                 </div>
-                <h1>Hello left</h1>
+                <h1>left container</h1>
+
                 <div className='right' >
-                    <div className='hamburger'>
-                        <span className='line1'></span>
-                        <span className='line2'></span>
-                        <span className='line3'></span>
+                    <div className='hamburger' >
+                        <span className='line1' > </span>
+                        <span className='line2' > </span>
+                        <span className='line3' > </span>
                     </div>
-                    this is right 
+                    
                     
 
                 </div>
