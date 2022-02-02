@@ -20,7 +20,8 @@ export default function Topbar({menuOpen, setMenuOpen}) {
                 <h1>left container</h1>
 
                 <div className='right' >
-                    <div className='hamburger' onClick={()=> setMenuOpen(!menuOpen)} >
+                    <div className='hamburger' onClick={()=> setMenuOpen(!menuOpen)} > 
+                    {/* when clicked it will be the opposite of the state  */}
                         <span className='line1' > </span>
                         <span className='line2' > </span>
                         <span className='line3' > </span>

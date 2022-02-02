@@ -77,7 +77,7 @@
                     background-color: white;
                     transform: rotate(45deg);
                 }
-                &:nth-child(2) {
+                &:nth-child(2) { // second line transparent to create 'X'
                     opacity: 0;
                 }
                 &:last-child {

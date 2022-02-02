@@ -9,10 +9,11 @@ import { useState } from "react";
 
 
 function App() {
-  const [menuOpen, setMenuOpen] = useState(false)
+  const [menuOpen, setMenuOpen] = useState(false) // created state 
   return (
     <div className="app"> 
-      <Topbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
+      <Topbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} /> 
+
       {/* sec  -intro -portfolio -work -testimonials  */}
 
       <div className="sections">
