@@ -11,16 +11,16 @@ export default function Intro() {
 
             <div className="right">
                 <div className="wrapper">
-                    <h2>Hi There, I'm</h2>
+                    <h2>Hi there, I'm</h2>
                     <h1>Loren Cipriano</h1>
-                    <h3>
-            {/* Freelance <span ref={textRef}></span> */}
-          </h3>
+                    <h3>Software Engineer
+                        <span></span>
+                    </h3>
+                </div>
+                <a href="#portfolio"> 
+                    <img src="assets/down.png" alt="" /> 
+                </a>
+            </div>
         </div>
-        <a href="#portfolio">
-          <img src="assets/down.png" alt="" />
-        </a>
-      </div>
-    </div>
     )
 }

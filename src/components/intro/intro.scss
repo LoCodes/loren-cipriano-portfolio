@@ -7,6 +7,7 @@
     .left{
         flex: 0.5;
         overflow: hidden; //scrolllbar
+        padding-top: 80px;
 
         .imgContainer {
             width: 700px;
@@ -28,6 +29,42 @@
     .right{
         flex: 0.5;
         position: relative;
+
+        .wrapper{
+            width: 100%;
+            height: 100%;
+            padding-left: 50px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            h1{
+                font-size: 60px;
+                margin: 10px 0;
+            }
+            h2{
+                font-size: 35px;
+            }
+            h3{
+                font-size: 30px;
+            }
+        }
+        a{
+            position: absolute;
+            bottom: 10px; 
+            // left: 20%; // arrow position 
+
+            img{
+                width: 30px;
+                animation: arrowBlink 1.5s infinite;
+
+                @keyframes arrowBlink {
+                    100%{
+                        opacity: 0;
+                    }
+                }
+            }
+        }
         
     }
 }
