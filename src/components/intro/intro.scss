@@ -47,6 +47,30 @@
             }
             h3{
                 font-size: 30px;
+
+                span{
+                    font-size: inherit;
+                    color: crimson;
+                }
+
+                .ityped-cursor {
+                    // font-size: 2.2rem;
+                    // opacity: 1;
+                    // -webkit-animation: blink 0.3s infinite;
+                    // -moz-animation: blink 0.3s infinite;
+                    animation: blink 1s infinite;
+                    // animation-direction: alternate;
+                }
+
+                // @keyframes specifies the animation code 
+                @keyframes blink { 
+                    50%{
+                        opacity: 1;
+                    }
+                    100% {
+                        opacity: 0;
+                    }
+                }
             }
         }
         a{
