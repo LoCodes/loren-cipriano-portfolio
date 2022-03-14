@@ -26,7 +26,6 @@ function App() {
         <Testimonials />
         <Contact /> 
       </div>
-      
     </div>
   ) ;
 }
