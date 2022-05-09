@@ -1,4 +1,4 @@
-// import 'PortfolioList.scss';
+// import './PortfolioList.scss';
 
 export default function PortfolioList({title}) {
   return (
@@ -8,3 +8,5 @@ export default function PortfolioList({title}) {
     </li>
   )
 }
+
+
