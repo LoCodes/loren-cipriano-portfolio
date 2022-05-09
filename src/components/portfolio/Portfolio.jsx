@@ -1,8 +1,11 @@
 // import './PortfolioList.scss';
+import { useState, useEffect } from 'react';
 import './portfolio.scss';
 import PortfolioList from "../portfolioList/PortfolioList"; 
 
 export default function Portfolio() {
+    const [selected, setSelected] = useState("featured"); // whenever selected matches any of the id, it will be true/active class
+    
 
     const list = [
         {   
@@ -34,7 +37,12 @@ export default function Portfolio() {
             <ul>
                 {/* iterate over list */}
                 {list.map(item => (
-                    <PortfolioList title={item.title}  />
+                    <PortfolioList 
+                        title={item.title}  
+                        active={selected === item.id}
+                        setSelected={setSelected} 
+                        id = {item.id}
+                     />
                 ))}
             </ul>
             <div className="container">
