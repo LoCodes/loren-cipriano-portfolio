@@ -7,23 +7,24 @@
     .left{
         flex: 0.5;
         overflow: hidden; //scrolllbar
-        padding-top: 80px;
+        padding-top: 40px;
+        padding-left: 60px;
+        padding-bottom: 70px;
+        
 
         .imgContainer {
             width: 700px;
             height: 700px;
-            background-color: crimson;
+            background-color: rgb(255, 255, 255);
             border-radius: 50%;
             display: flex;
             align-items: flex-end;
             justify-content: center;
             float: 
-      
-            img {
-                height: 90%;            
-            }
+                img {
+                    height: 50%;            
+                }
         }
-
     }
 
     .right{
