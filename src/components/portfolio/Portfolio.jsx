@@ -5,7 +5,7 @@ import PortfolioList from "../portfolioList/PortfolioList";
 
 export default function Portfolio() {
     const [selected, setSelected] = useState("featured"); // whenever selected matches any of the id, it will be true/active class
-    
+    // initial state "featured" === highlighted tab 
 
     const list = [
         {   
@@ -36,8 +36,8 @@ export default function Portfolio() {
             <h1>Portfolio</h1>
             <ul>
                 {/* iterate over list */}
-                {list.map(item => (
-                    <PortfolioList 
+                {list.map(item => ( // for each item I'm returning the porfolio list with  
+                    <PortfolioList // pass in as props 
                         title={item.title}  
                         active={selected === item.id}
                         setSelected={setSelected} 

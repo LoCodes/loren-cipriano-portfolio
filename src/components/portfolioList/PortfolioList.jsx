@@ -11,4 +11,4 @@ export default function PortfolioList({title, active, setSelected, id}) {
   )
 }
 
-
+ 
